@@ -3,7 +3,7 @@ name: Daily Contribution Bot
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Midnight daily
+    - cron: '0 12 * * *' # Noon (12 PM) UTC daily
   workflow_dispatch: # Manual trigger
 
 jobs:
